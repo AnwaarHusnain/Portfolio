@@ -1,0 +1,328 @@
+/* 
+    ================================ (1400px) ================================
+*/
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 100%;
+  }
+
+  .about-interest {
+    max-width: 550px;
+  }
+
+  .banner-text p {
+    width: auto;
+  }
+
+  .banner a {
+    width: 170px;
+  }
+}
+
+/* 
+    ================================ (1100px) ================================
+*/
+
+@media screen and (max-width: 1100px) {
+  .home-text {
+    margin-left: 0rem;
+  }
+}
+
+/* 
+    ================================ (992px) ================================
+*/
+
+@media screen and (max-width: 992px) {
+  ul {
+    width: 30%;
+    height: 80%;
+    position: fixed;
+    top: 16%;
+    right: -100%;
+    background-color: var(--primary);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 400ms ease;
+    z-index: 50;
+    gap: 0rem;
+  }
+
+  ul.active {
+    right: 0%;
+  }
+
+  .hire-btn {
+    display: none;
+  }
+
+  .toggle-btn {
+    display: block;
+    font-size: 2em;
+  }
+
+  .menu-link {
+    color: var(--white);
+  }
+
+  .home-container {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0rem 1rem;
+    text-align: center;
+  }
+
+  .social-media-icon {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 250px;
+    height: 40px;
+    background-color: var(--primary);
+    border-radius: 0px 0px 100px 100px;
+  }
+
+  .home-para {
+    margin: 1rem auto 2.5rem auto;
+    max-width: 80%;
+  }
+
+  .home-img {
+    max-width: 70%;
+  }
+
+  .about-container {
+    padding: 0rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-img {
+    max-width: 70%;
+  }
+
+  .about-para {
+    max-width: 80%;
+    margin-inline: auto;
+  }
+
+  .about-left {
+    margin: 3rem auto 0rem;
+  }
+
+  .about-name,
+  .about-email {
+    justify-content: center;
+  }
+
+  .about-interest {
+    margin-inline: auto;
+  }
+
+  .skill-txt {
+    text-align: center;
+    margin: 3rem auto 0rem;
+  }
+
+  .gallery_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .contact-info-box {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+/* 
+    ================================ (840px) ================================
+*/
+
+@media screen and (max-width: 835px) {
+  .skill-content {
+    gap: 0rem;
+    padding: 1rem 0rem;
+  }
+
+  .edu-exp-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .edu-exp-column {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .edu-exp-box::before {
+    content: "";
+    width: 0rem;
+    height: 0rem;
+  }
+
+  .edu-exp-year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .edu-exp-box {
+    border: none;
+  }
+
+  .services-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    padding: 3rem 1rem;
+    margin: 0rem;
+  }
+
+  .service-card {
+    padding: 2rem 1rem;
+  }
+
+  .service-card {
+    padding: 2rem 1rem;
+  }
+
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+  }
+
+  .banner-text {
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .banner-img {
+    max-width: 60%;
+    height: 100%;
+    margin-inline: auto;
+  }
+
+  .banner-img img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .testimonial-box p {
+    text-align: center;
+    line-height: 1.7em;
+  }
+
+  .contact-info-box {
+    width: 80%;
+  }
+}
+
+/* 
+    ================================ (768px) ================================
+*/
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+
+  .about-interest {
+    margin-inline: auto;
+  }
+
+  .services-content {
+    grid-template-columns: 80%;
+    justify-content: center;
+  }
+
+  .skill-lang {
+    margin-inline: auto;
+    width: 90%;
+  }
+
+  .service-card-para {
+    margin-inline: auto;
+    max-width: 70%;
+  }
+
+  .skill-content {
+    justify-content: center;
+    grid-template-columns: 90%;
+  }
+
+  .gallery_wrapper {
+    grid-template-columns: 80%;
+    gap: 3rem;
+    justify-content: center;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .contact-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .banner-text h2 {
+    font-size: 3em;
+  }
+}
+
+/* 
+    ================================ (500px) ================================
+*/
+
+@media screen and (max-width: 500px) {
+  .contact-content {
+    padding: 3rem 0rem;
+  }
+
+  .contact-info-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .edu-exp-content {
+    grid-template-columns: 80%;
+    justify-content: center;
+    padding-inline: 3rem;
+  }
+}
